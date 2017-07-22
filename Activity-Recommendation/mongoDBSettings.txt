@@ -1,0 +1,5 @@
+db.interestPoint.createIndex({ "coordinates": "2d" })
+
+db.prod.createIndex({ "location": "2d" })
+Where prod is my collection name and location is name of column which stores geo location (GeoPoint)
+
